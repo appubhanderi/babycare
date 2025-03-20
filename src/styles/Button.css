@@ -1,0 +1,36 @@
+.btn-custom {
+    background-color: #ff488c;
+    border: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 25% 10%;
+    font-weight: 600;
+    font-size: 15px;
+    transition: .5s;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: #4d65f9;
+    color: #ff4880 !important;
+}
+
+
+@media (max-width: 576px) {
+    .btn-custom {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .display-4 {
+        font-size: 1.8rem;
+    }
+
+    .display-6 {
+        font-size: 1.2rem;
+    }
+
+    .gap-3 {
+        gap: 1rem !important;
+    }
+}

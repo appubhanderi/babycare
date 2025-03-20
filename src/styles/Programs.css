@@ -1,0 +1,109 @@
+.Programs_Title {
+    border-bottom: 2px solid #ff4880;
+    border-radius: 10% 30%;
+    width: fit-content;
+    color: #ff4880;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.Programs_Header {
+    font-weight: 700;
+    font-family: "Fredoka", serif;
+    color: #393d72;
+    text-align: center;
+}
+
+.Programs_card {
+    background-color: #ffecf2 !important;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+
+}
+
+.Programs_card_image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50% 20% / 10% 40% !important;
+}
+
+.Programs_card_image img {
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+
+
+.Programs_price {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff4880;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.Programs_card_content {
+    padding: 20px;
+}
+
+.Programs_card_title {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #393d72;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.Programs_card_designation {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #70747f;
+}
+
+.Programs_card_author {
+    display: flex;
+    margin-top: 20px;
+    border-top: 1px solid #ff4880;
+    padding-top: 10px;
+}
+
+.Programs_card_author img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: #ff4880 1px solid;
+    padding: 7px;
+    transition: transform 0.5s ease;
+}
+
+.Programs_card_name {
+    font-weight: bold;
+    color: #e91e63;
+    margin: 5px !important;
+
+}
+
+.Programs_card_pogram {
+    background-color: #ff4880 !important;
+}
+
+.Programs_card:hover .Programs_card_image img {
+    transform: scale(1.2);
+    border-color: #ff488c !important;
+}
+
+.Programs_card:hover .Programs_card_title {
+    color: #ff4880;
+}
+
+.Programs_card:hover .Programs_card_author img {
+    transform: scale(1.2);
+}

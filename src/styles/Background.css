@@ -1,0 +1,17 @@
+.background-container {
+    background-image: url('../image/hero-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.background-content {
+    font-family: Fredoka, sans-serif;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    padding: 100px;
+}

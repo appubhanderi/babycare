@@ -1,0 +1,58 @@
+/* Header Navbar Styling */
+.header-navbar {
+    background-color: #ffecf2;
+    /* Header background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Optional shadow */
+    padding: 0.5rem 1rem;
+}
+
+/* Brand Styling */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.baby-text {
+    color: #ff488c;
+    /* Baby color */
+}
+
+.care-text {
+    color: #4d65f9;
+    /* Care color */
+}
+
+/* Nav Links Styling */
+.nav-link {
+    color: rgba(0, 0, 0, .55);
+    /* Default link color */
+    margin-right: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff488c;
+    /* Hover color */
+}
+
+.nav-link.active {
+    color: #ff488c !important;
+    /* Active link color */
+    font-weight: bold;
+}
+
+/* Phone Number Styling */
+.phone-number {
+    color: #ff488c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.phone-number:hover {
+    color: #4d65f9;
+    /* Hover color for the phone number */
+}

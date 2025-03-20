@@ -1,0 +1,133 @@
+.Events_Title {
+    border-bottom: 2px solid #ff4880;
+    border-radius: 10% 30%;
+    width: fit-content;
+    color: #ff4880;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.Events_Header {
+    font-weight: 700;
+    font-family: "Fredoka", serif;
+    color: #393d72;
+    text-align: center;
+}
+
+.Events_card {
+    background-color: #ffecf2 !important;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.Events_card_image {
+    position: relative;
+    overflow: hidden;
+    background-color: #ff4880 !important;
+    border-radius: 50% !important;
+}
+
+.Events_card_image img {
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.search {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.Events_Card_month {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4d65f9;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    z-index: 11;
+}
+
+.Events_card_content1 {
+    padding: 20px 0px 0px 0px;
+}
+
+.Events_card_content {
+    padding: 10px 20px;
+    background-color: #4d65f9 !important;
+}
+
+.text-muted {
+    color: #ffff !important;
+}
+
+.Events_Card_title {
+    margin: 20px !important;
+    font-size: 20px;
+    color: #393d72;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    text-align: left !important;
+}
+
+.Events_Card_description {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #70747f !important;
+    margin: 20px !important;
+    text-align: left !important;
+}
+.modal-body img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Events_card_image::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    bottom: auto;
+    background: rgba(77, 101, 249, .7);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.Events_Card:hover .Events_card_image::after {
+    height: 100%;
+    opacity: 1;
+}
+
+.Events_Card:hover .Events_card_image img {
+    transform: scale(1.2);
+    border-color: #ff488c !important;
+    filter: var(#4d65f9) !important;
+}
+
+.Events_Card:hover .Events_card_image img {
+    filter: var(#4d65f9) !important;
+}
+
+.Events_Card:hover .Events_Card_title {
+    color: #ff4880;
+}
+
+.Events_card_image:hover .search {
+    opacity: 1;
+    z-index: 10;
+}

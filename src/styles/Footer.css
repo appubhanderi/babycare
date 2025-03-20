@@ -1,0 +1,137 @@
+.footer {
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, 1)), url(../image/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    fill-opacity: var(#333);
+    color: #6c757d;
+}
+
+.newsletter {
+    margin-bottom: 20px;
+}
+
+/* Title Styling */
+
+
+.newsletter-description {
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+/* Newsletter Box */
+.newsletter-box {
+    background-color: #ffecf2 !important;
+    border: 1px solid #ff488c;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.newsletter-title {
+    color: #393d72 !important;
+}
+
+.newsletter-input-box {
+    max-width: 400px;
+    border: 1px solid #ff488c;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.newsletter-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding: 12px 15px;
+    box-sizing: border-box;
+}
+
+.newsletter-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ff488c;
+    border: none;
+    padding: 10px 12px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.newsletter-button:hover {
+    background-color: #4d65f9 !important;
+}
+
+
+/* Location Section */
+
+.footer-item {
+    margin-bottom: 2rem;
+    margin: auto !important;
+    width: fit-content !important;
+}
+
+.footer-item h4 {
+    margin-bottom: 2rem;
+    border-bottom: #ff4880 2px solid;
+    border-radius: 10% 30%;
+    width: fit-content;
+    color: #ff4880;
+    font-weight: 600;
+}
+
+.service {
+    text-decoration: none !important;
+    color: #6c757d !important;
+}
+
+.service:hover {
+    color: #ff4880 !important;
+}
+
+.service_icon {
+    color: #ff4880;
+}
+
+.footer-icon .btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #ff488c;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-icon .btn:hover {
+    background-color: #4d65f9;
+    transform: scale(1.1);
+}
+
+/* Gallery Section */
+
+.footer .footer-galary-img img {
+    width: 100%;
+    border-style: dotted;
+    border-color: #ff488c !important;
+    padding: 5px;
+    transition: transform 0.5s ease-in-out, border-color 0.5s;
+}
+
+.footer .footer-galary-img img:hover {
+    transform: scale(1.2);
+    border-color: #ff488c !important;
+}
+
+.footer_dotted_circle {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: #ff488c 1px solid;
+    border-radius: 100% !important;
+}
+
+.footer_rounded_circle {
+    border-radius: 50% !important;
+}

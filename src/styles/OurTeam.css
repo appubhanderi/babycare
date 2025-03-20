@@ -1,0 +1,98 @@
+.Our_team {
+    background-color: white;
+}
+
+.OurTeam {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ff4880;
+    border-radius: 10% 30%;
+    width: fit-content;
+    color: #ff4880;
+    padding-bottom: 10px;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.OurTeam_Header {
+    font-weight: 700;
+    font-family: "Fredoka", serif;
+    color: #393d72;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.OurTeam_card {
+    position: relative;
+    border-radius: 50% 20% / 10% 40%;
+    background-color: white;
+    border: 1px solid #ff4880 !important;
+    overflow: hidden;
+}
+
+.team-icon {
+    position: absolute;
+    top: 58%;
+    left: 17%;
+    transition: transform 1.5s ease-in-out;
+}
+
+.member_name {
+    color: #ff4880;
+}
+
+.member_role {
+    color: #6c757d;
+}
+
+.social-icon,
+.share-icon {
+    border-radius: 50%;
+    background-color: #ff4880;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.social-icon:hover,
+.share-icon:hover {
+    background-color: #4d65f9;
+}
+
+.OurTeam_card:hover .social-icon {
+    opacity: 1;
+}
+
+.OurTeam_card:hover .team-content {
+    background-color: #ff4880;
+}
+
+.OurTeam_card:hover .member_name {
+    color: #ffff !important;
+}
+
+.OurTeam_card:hover .member_role {
+    color: #393d72 !important;
+}
+
+@media (max-width: 576px) {
+    .team-icon {
+        top: 66%;
+        left: 27%;
+    }
+}
+
+@media (max-width: 768px) {
+    .team-icon {
+        top: 62%;
+        left: 23%;
+    }
+}

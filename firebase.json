@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "site": "babycare-aa40f",
+    "public": "build",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

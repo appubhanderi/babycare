@@ -1,0 +1,98 @@
+.AboutBg {
+    background-image: url(../image/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.AboutBg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    /* White overlay with opacity */
+    z-index: 1;
+}
+
+.AboutBg>* {
+    position: relative;
+    z-index: 2;
+}
+
+.About_Title {
+    border-bottom: 2px solid #ff4880;
+    border-radius: 10% 30%;
+    width: fit-content;
+    color: #ff4880;
+    padding-bottom: 10px;
+}
+
+.About_Header {
+    font-weight: 600;
+    font-family: "Fredoka", serif;
+    color: #393d72;
+    text-align: start;
+}
+
+/* Play Button Styling */
+.btn-play {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    padding-left: 15px;
+    transform: translate(-50%, -50%);
+    background: #ff4880;
+    /* Solid color without transparency */
+    color: white;
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    opacity: 1;
+    /* Ensures full visibility */
+}
+
+/* Pulse Animation Effect */
+
+.btn-play::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: rgba(57, 97, 242, 0.5);
+    border-radius: 50%;
+    animation: pulse-border 1.5s ease-out infinite;
+}
+
+/* Keyframes for Circular Pulse Animation */
+@keyframes pulse-border {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.4);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1.8);
+        opacity: 0;
+    }
+}

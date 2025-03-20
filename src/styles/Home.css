@@ -1,0 +1,19 @@
+.home_bc {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)), url(../image/hero-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.We_Care {
+    color: #ff488c;
+}
+
+.the_best {
+    font-family: "Fredoka", serif;
+    font-weight: 900;
+    color: #ffff;
+}
